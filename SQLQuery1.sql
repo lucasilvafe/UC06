@@ -21,6 +21,9 @@ create table perfil(
 	editar_perfil bit,
 	favoritar_conta bit
 );
+create table notificacao(
+
+);
 -- Criando a tabela instagram
 create table instagram(
 	id_empresa int primary key,
@@ -40,4 +43,7 @@ create table loging(
 	nome_usuario nvarchar(20),
 	email_usuario varchar(50)
 );
--- Criando a tabela
+-- Chave estrangeira
+create (
+	 
+);
