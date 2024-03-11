@@ -10,6 +10,10 @@ create table usuario(
 	senha varchar(25),
 	telefone char(11)
 );
+-- Criando a tabvela pessoal
+create table pessoal(
+	
+);
 -- Criando a tabela perfil
 create table perfil(
 	id_perfil int primary key,
