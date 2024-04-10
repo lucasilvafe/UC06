@@ -1,4 +1,4 @@
-/* 2
+
 create procedure sp_funcionarios_bibliotecarios
 as
 begin
@@ -68,9 +68,9 @@ end
 
 exec sp_funcionarios_nao_ti
 9
-*/
 
-/*
+
+
 10
 create procedure sp_titulo_emprestado_pelo_U0001
 as
@@ -79,9 +79,8 @@ select titulo, autor from LIVRO
 join EMPRESTIMO_TARDE on LIVRO.numero_registro = EMPRESTIMO_TARDE.numero_registro
 where id_usuario = 'U0001';
 end
-*/
 
-/*
+
 11
 create procedure sp_palestras_custaram_acima_100_reais
 as
@@ -91,7 +90,7 @@ join palestra on evento.id_evento = palestra.id_evento
 where custo > 100.00;
 end
 
---exec sp_palestras_custaram_acima_100_reais
+exec sp_palestras_custaram_acima_100_reais
 
 12
 create procedure sp_livros_ciencia_publicado_depois_de_2010
@@ -125,7 +124,7 @@ begin
 end
 
 exec sp_livros_emprestados
-*/
+
 
 select nome,titulo
 from EMPRESTIMO_TARDE
